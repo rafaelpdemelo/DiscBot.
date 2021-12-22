@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    background: linear-gradient(68.15deg, #1A1C22 16.62%, #3556CC 85.61%);
+
+}
+
+header {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.nav-menu {
+    font-family: "Poppins";
+    display: flex;
+    gap: 32px;
+}
+
+.nav-items-menu {
+    color: white;
+    list-style: none;
+    font-size: 12px;
+}
+
+.mainBox{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.title{
+    color: white;
+    font-weight: 400;
+    font-family: 'Righteous';
+}
+
+.description{
+    color: white;
+    font-family: 'Poppins'
+}
+
+
+.img{
+    margin-left: -36px;
+    width: 364.64px;
+    height: 343.75px;
+}
+
+
+.about{
+    text-align: center;
+    font-family: "Poppins";
+    margin: 100px 270px;
+    align-items: center;
+    color: white;
+    line-height: 31px;
+}
+
+.about h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+/* BOTAO CSS */
+
+.container1 {
+  
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .container2{
+    width: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+    background: #385bdb;
+    
+    box-sizing: border-box;
+  }
+    
+  .container0{
+    margin-top: 20px;
+    padding-right: unset;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+    background: linear-gradient(68.15deg, #1A1C22 16.62%, #3556CC 85.61%);
+  }
+
+
+  .h3Area{
+    font-family: "Poppins";
+    margin-left: 75px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    color: white;
+  }
